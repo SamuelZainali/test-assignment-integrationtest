@@ -1,5 +1,6 @@
 # Inlämning - Integrationstester
 
+Test
 Detta projekt skall fungera som mall för vad ni skall testa i denna del av kursen, asynkrona tester.
 
 ## Att göra
@@ -16,7 +17,7 @@ Ni behöver inte testa main.ts i detta projekt.
 
 ## Förslag
 
-Gå igenom koden i lugn och ro och se till att ni förstår vad den gör och hur information skickas till och från funktionerna i filerna. Börja därefter med att skriva tester för koden som är närmast datakällan, alltså movieservice.ts. Skriv därefter tester som använder sig av movieservice.ts och flytta er närmare och närmare webbläsaren. 
+Gå igenom koden i lugn och ro och se till att ni förstår vad den gör och hur information skickas till och från funktionerna i filerna. Börja därefter med att skriva tester för koden som är närmast datakällan, alltså movieservice.ts. Skriv därefter tester som använder sig av movieservice.ts och flytta er närmare och närmare webbläsaren.
 
 ## Betygskriterier
 
