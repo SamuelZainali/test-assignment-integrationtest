@@ -7,7 +7,7 @@ export const init = () => {
   let form = document.getElementById("searchForm") as HTMLFormElement;
   form.addEventListener("submit", (e: SubmitEvent) => {
     e.preventDefault();
-    handleSubmit();
+    exports.handleSubmit();
   });
 };
 
@@ -54,7 +54,7 @@ export const createHtml = (movies: IMovie[], container: HTMLDivElement) => {
 export const displayNoResult = (container: HTMLDivElement) => {
   let noMessage = document.createElement("p");
 
-  noMessage.innerHTML = "Inga sökresultat att visa";
+  noMessage.innerHTML = "No results";
 
   container.appendChild(noMessage);
 };
